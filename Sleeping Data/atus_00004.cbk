@@ -1,0 +1,206 @@
+Description: Revision of (Revision of (Amount of time by state and metro area.)) added age. 
+Samples selected:
+                                                        regular
+                                                        regular
+                                                        regular
+                                                        regular
+                                                        regular
+                                                        regular
+                                                        regular
+                                                        regular
+                                                        regular
+File Type:                    rectangular
+Case Selection:               No
+  Variable               Columns        Len    2005    2006    2007    2008    2009    2010    2011    2012    2013   
+  CASEID             1   1-14          14      X       X       X       X       X       X       X       X       X 
+  YEAR               1  15-19           5      X       X       X       X       X       X       X       X       X 
+  STATEFIP           1  20-21           2      X       X       X       X       X       X       X       X       X 
+  METAREA            1  22-26           5      X       X       X       X       X       X       X       X       X 
+  PERNUM             2  27-28           2      X       X       X       X       X       X       X       X       X 
+  LINENO             2  29-31           3      X       X       X       X       X       X       X       X       X 
+  WT06               2  32-48          17      X       X       X       X       X       X       X       X       X 
+  AGE                2  49-51           3      X       X       X       X       X       X       X       X       X 
+  SEX                2  52-53           2      X       X       X       X       X       X       X       X       X 
+  EMPSTAT            2  54-55           2      X       X       X       X       X       X       X       X       X 
+  BLS_PCARE_SLEEP    2  56-59           4      X       X       X       X       X       X       X       X       X 
+
+Variable Availability Key:
+All Years X - available in this sample
+All Years . - not available in this sample
+
+Time Use Variables:
+  BLS_PCARE_SLEEP
+    Activity specifications:
+        010100  Sleeping
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+
+ STATEFIP		FIPS State Code
+01		Alabama
+02		Alaska
+04		Arizona
+05		Arkansas
+06		California
+08		Colorado
+09		Connecticut
+10		Delaware
+11		District of Columbia
+12		Florida
+13		Georgia
+15		Hawaii
+16		Idaho
+17		Illinois
+18		Indiana
+19		Iowa
+20		Kansas
+21		Kentucky
+22		Louisiana
+23		Maine
+24		Maryland
+25		Massachusetts
+26		Michigan
+27		Minnesota
+28		Mississippi
+29		Missouri
+30		Montana
+31		Nebraska
+32		Nevada
+33		New Hampshire
+34		New Jersey
+35		New Mexico
+36		New York
+37		North Carolina
+38		North Dakota
+39		Ohio
+40		Oklahoma
+41		Oregon
+42		Pennsylvania
+44		Rhode Island
+45		South Carolina
+46		South Dakota
+47		Tennessee
+48		Texas
+49		Utah
+50		Vermont
+51		Virginia
+53		Washington
+54		West Virginia
+55		Wisconsin
+56		Wyoming
+
+ METAREA		Consolidated MSA name
+00000		Not Identified or NonMetropolitan
+00460		Appleton-Oshkosh-Neenah, WI
+01120		Boston, MA
+01121		Boston-Worchester-Manchester, MS-NH-CT-ME
+01160		Bridgeport-New Haven-Stamford, CT
+01600		Chicago-Gary-Kenosha, IL-IN-WI
+01601		Chicago-Naperville-Michigan City, IL-IN-WI
+01640		Cincinnati-Hamilton, OH-KY-IN
+01641		Cincinnati-Middletown-Wilmington, OH-KY-IN
+01680		Cleveland-Akron, OH
+01681		Cleveland-Akron-Elyria, OH
+01920		Dallas-Fort Worth, TX
+01921		Dallas-Fort Worth, TX
+02000		Dayton-Springfield-Greenville, OH
+02080		Denver-Boulder-Greeley, CO
+02081		Denver-Aurora-Boulder, CO
+02160		Detroit-Ann Arbor-Flint, MI
+02161		Detroit-Warren-Flint, MI
+02840		Fresno-Madera, CA
+03000		Grand Rapids-Muskegon-Holland, MI (part)
+03120		Greensboro-Winston-Salem-High Point, NC (part)
+03160		Greenville-Anderson-Seneca, SC (part)
+03360		Houston-Galveston-Brazoria, TX
+03361		Houston-Baytown-Huntsville, TX (part)
+03440		Huntsville-Decatur, AL
+03480		Indianapolis-Anderson-Columbus, IN (part)
+03660		Johnson City-Kingsport-Bristol, TN-VA (part)
+04480		Los Angeles-Riverside-Orange County, CA
+04481		Los Angeles-Long Beach-Riverside, CA
+04680		Macon-Warner-Robins-Fort Valley, GA (part)
+05000		Miami-Fort Lauderdale, FL
+05080		Milwaukee-Racine, WI
+05081		Milwaukee-Racine-Waukesha, WI
+05120		Minneapolis-St. Paul-St. Cloud, MN-WI (part)
+05600		New York-Northern New Jersey-Long Island, NY-NJ-CT-PA
+05601		New York-Newark-Bridgeport, NY-NH-CT-PA
+06160		Philadelphia-Wilmington-Atlantic City, PA-NJ-DE-MD
+06161		Philadelphia-Camden-Vineland, PA-NJ-DE-MD
+06400		Portland-Salem, OR-WA
+06640		Raleigh-Durham-Cary, NC (part)
+06920		Sacramento-Yolo, CA
+06921		Sacramento-Arden-Arcade-Truckee, CA-NV
+07160		Salt Lake City-Ogden-Clearfield, UT (part)
+07360		San Francisco-Oakland-San Jose, CA
+07600		Seattle-Tacoma-Bremerton, WA
+07601		Seattle-Tacoma-Olympia, WA
+08840		Washington-Baltimore, DC-MD-VA-WV
+08841		Washington-Baltimore-Northern Virginia, DC-MD-VA-WV
+99998		Blank
+99999		NIU (Not in universe)
+
+ PERNUM		Person number (general)
+01		1
+02		2
+03		3
+04		4
+05		5
+06		6
+07		7
+08		8
+09		9
+10		10
+11		11
+12		12
+13		13
+14		14
+15		15
+16		16
+
+ LINENO		Person line number
+001		1
+002		2
+003		3
+004		4
+005		5
+006		6
+007		7
+008		8
+009		9
+010		10
+011		11
+012		12
+013		13
+014		14
+015		15
+016		16
+017		17
+018		18
+019		19
+999		NIU (Not in universe)
+
+ SEX		Sex
+01		Male
+02		Female
+99		NIU (Not in universe)
+
+ EMPSTAT		Labor force status
+01		Employed - at work
+02		Employed - absent
+03		Unemployed - on layoff
+04		Unemployed - looking
+05		Not in labor force
+99		NIU (Not in universe)
