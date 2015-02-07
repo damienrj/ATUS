@@ -1,0 +1,51 @@
+METAREA,Consolidated MSA name
+00000,Not Identified or NonMetropolitan
+00460,Appleton-Oshkosh-Neenah, WI
+01120,Boston, MA
+01121,Boston-Worchester-Manchester, MS-NH-CT-ME
+01160,Bridgeport-New Haven-Stamford, CT
+01600,Chicago-Gary-Kenosha, IL-IN-WI
+01601,Chicago-Naperville-Michigan City, IL-IN-WI
+01640,Cincinnati-Hamilton, OH-KY-IN
+01641,Cincinnati-Middletown-Wilmington, OH-KY-IN
+01680,Cleveland-Akron, OH
+01681,Cleveland-Akron-Elyria, OH
+01920,Dallas-Fort Worth, TX
+01921,Dallas-Fort Worth, TX
+02000,Dayton-Springfield-Greenville, OH
+02080,Denver-Boulder-Greeley, CO
+02081,Denver-Aurora-Boulder, CO
+02160,Detroit-Ann Arbor-Flint, MI
+02161,Detroit-Warren-Flint, MI
+02840,Fresno-Madera, CA
+03000,Grand Rapids-Muskegon-Holland, MI (part)
+03120,Greensboro-Winston-Salem-High Point, NC (part)
+03160,Greenville-Anderson-Seneca, SC (part)
+03360,Houston-Galveston-Brazoria, TX
+03361,Houston-Baytown-Huntsville, TX (part)
+03440,Huntsville-Decatur, AL
+03480,Indianapolis-Anderson-Columbus, IN (part)
+03660,Johnson City-Kingsport-Bristol, TN-VA (part)
+04480,Los Angeles-Riverside-Orange County, CA
+04481,Los Angeles-Long Beach-Riverside, CA
+04680,Macon-Warner-Robins-Fort Valley, GA (part)
+05000,Miami-Fort Lauderdale, FL
+05080,Milwaukee-Racine, WI
+05081,Milwaukee-Racine-Waukesha, WI
+05120,Minneapolis-St. Paul-St. Cloud, MN-WI (part)
+05600,New York-Northern New Jersey-Long Island, NY-NJ-CT-PA
+05601,New York-Newark-Bridgeport, NY-NH-CT-PA
+06160,Philadelphia-Wilmington-Atlantic City, PA-NJ-DE-MD
+06161,Philadelphia-Camden-Vineland, PA-NJ-DE-MD
+06400,Portland-Salem, OR-WA
+06640,Raleigh-Durham-Cary, NC (part)
+06920,Sacramento-Yolo, CA
+06921,Sacramento-Arden-Arcade-Truckee, CA-NV
+07160,Salt Lake City-Ogden-Clearfield, UT (part)
+07360,San Francisco-Oakland-San Jose, CA
+07600,Seattle-Tacoma-Bremerton, WA
+07601,Seattle-Tacoma-Olympia, WA
+08840,Washington-Baltimore, DC-MD-VA-WV
+08841,Washington-Baltimore-Northern Virginia, DC-MD-VA-WV
+99998,Blank
+99999,NIU (Not in universe)
