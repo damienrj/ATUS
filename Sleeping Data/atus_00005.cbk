@@ -1,0 +1,367 @@
+Description: Revision of (Revision of (Revision of (Amount of time by state and metro area.)) added age. )
+Samples selected:
+                                                        regular
+                                                        regular
+                                                        regular
+                                                        regular
+                                                        regular
+                                                        regular
+                                                        regular
+                                                        regular
+                                                        regular
+File Type:                    rectangular
+Case Selection:               No
+  Variable               Columns        Len    2005    2006    2007    2008    2009    2010    2011    2012    2013   
+  CASEID             1   1-14          14      X       X       X       X       X       X       X       X       X 
+  YEAR               1  15-19           5      X       X       X       X       X       X       X       X       X 
+  STATEFIP           1  20-21           2      X       X       X       X       X       X       X       X       X 
+  METAREA            1  22-26           5      X       X       X       X       X       X       X       X       X 
+  PERNUM             2  27-28           2      X       X       X       X       X       X       X       X       X 
+  LINENO             2  29-31           3      X       X       X       X       X       X       X       X       X 
+  WT06               2  32-48          17      X       X       X       X       X       X       X       X       X 
+  RWT06              2  49              1      X       X       X       X       X       X       X       X       X 
+  RWT06_1            2  50-64          15      X       X       X       X       X       X       X       X       X 
+  RWT06_2            2  65-79          15      X       X       X       X       X       X       X       X       X 
+  RWT06_3            2  80-94          15      X       X       X       X       X       X       X       X       X 
+  RWT06_4            2  95-109         15      X       X       X       X       X       X       X       X       X 
+  RWT06_5            2 110-124         15      X       X       X       X       X       X       X       X       X 
+  RWT06_6            2 125-139         15      X       X       X       X       X       X       X       X       X 
+  RWT06_7            2 140-154         15      X       X       X       X       X       X       X       X       X 
+  RWT06_8            2 155-169         15      X       X       X       X       X       X       X       X       X 
+  RWT06_9            2 170-184         15      X       X       X       X       X       X       X       X       X 
+  RWT06_10           2 185-199         15      X       X       X       X       X       X       X       X       X 
+  RWT06_11           2 200-214         15      X       X       X       X       X       X       X       X       X 
+  RWT06_12           2 215-229         15      X       X       X       X       X       X       X       X       X 
+  RWT06_13           2 230-244         15      X       X       X       X       X       X       X       X       X 
+  RWT06_14           2 245-259         15      X       X       X       X       X       X       X       X       X 
+  RWT06_15           2 260-274         15      X       X       X       X       X       X       X       X       X 
+  RWT06_16           2 275-289         15      X       X       X       X       X       X       X       X       X 
+  RWT06_17           2 290-304         15      X       X       X       X       X       X       X       X       X 
+  RWT06_18           2 305-319         15      X       X       X       X       X       X       X       X       X 
+  RWT06_19           2 320-334         15      X       X       X       X       X       X       X       X       X 
+  RWT06_20           2 335-349         15      X       X       X       X       X       X       X       X       X 
+  RWT06_21           2 350-364         15      X       X       X       X       X       X       X       X       X 
+  RWT06_22           2 365-379         15      X       X       X       X       X       X       X       X       X 
+  RWT06_23           2 380-394         15      X       X       X       X       X       X       X       X       X 
+  RWT06_24           2 395-409         15      X       X       X       X       X       X       X       X       X 
+  RWT06_25           2 410-424         15      X       X       X       X       X       X       X       X       X 
+  RWT06_26           2 425-439         15      X       X       X       X       X       X       X       X       X 
+  RWT06_27           2 440-454         15      X       X       X       X       X       X       X       X       X 
+  RWT06_28           2 455-469         15      X       X       X       X       X       X       X       X       X 
+  RWT06_29           2 470-484         15      X       X       X       X       X       X       X       X       X 
+  RWT06_30           2 485-499         15      X       X       X       X       X       X       X       X       X 
+  RWT06_31           2 500-514         15      X       X       X       X       X       X       X       X       X 
+  RWT06_32           2 515-529         15      X       X       X       X       X       X       X       X       X 
+  RWT06_33           2 530-544         15      X       X       X       X       X       X       X       X       X 
+  RWT06_34           2 545-559         15      X       X       X       X       X       X       X       X       X 
+  RWT06_35           2 560-574         15      X       X       X       X       X       X       X       X       X 
+  RWT06_36           2 575-589         15      X       X       X       X       X       X       X       X       X 
+  RWT06_37           2 590-604         15      X       X       X       X       X       X       X       X       X 
+  RWT06_38           2 605-619         15      X       X       X       X       X       X       X       X       X 
+  RWT06_39           2 620-634         15      X       X       X       X       X       X       X       X       X 
+  RWT06_40           2 635-649         15      X       X       X       X       X       X       X       X       X 
+  RWT06_41           2 650-664         15      X       X       X       X       X       X       X       X       X 
+  RWT06_42           2 665-679         15      X       X       X       X       X       X       X       X       X 
+  RWT06_43           2 680-694         15      X       X       X       X       X       X       X       X       X 
+  RWT06_44           2 695-709         15      X       X       X       X       X       X       X       X       X 
+  RWT06_45           2 710-724         15      X       X       X       X       X       X       X       X       X 
+  RWT06_46           2 725-739         15      X       X       X       X       X       X       X       X       X 
+  RWT06_47           2 740-754         15      X       X       X       X       X       X       X       X       X 
+  RWT06_48           2 755-769         15      X       X       X       X       X       X       X       X       X 
+  RWT06_49           2 770-784         15      X       X       X       X       X       X       X       X       X 
+  RWT06_50           2 785-799         15      X       X       X       X       X       X       X       X       X 
+  RWT06_51           2 800-814         15      X       X       X       X       X       X       X       X       X 
+  RWT06_52           2 815-829         15      X       X       X       X       X       X       X       X       X 
+  RWT06_53           2 830-844         15      X       X       X       X       X       X       X       X       X 
+  RWT06_54           2 845-859         15      X       X       X       X       X       X       X       X       X 
+  RWT06_55           2 860-874         15      X       X       X       X       X       X       X       X       X 
+  RWT06_56           2 875-889         15      X       X       X       X       X       X       X       X       X 
+  RWT06_57           2 890-904         15      X       X       X       X       X       X       X       X       X 
+  RWT06_58           2 905-919         15      X       X       X       X       X       X       X       X       X 
+  RWT06_59           2 920-934         15      X       X       X       X       X       X       X       X       X 
+  RWT06_60           2 935-949         15      X       X       X       X       X       X       X       X       X 
+  RWT06_61           2 950-964         15      X       X       X       X       X       X       X       X       X 
+  RWT06_62           2 965-979         15      X       X       X       X       X       X       X       X       X 
+  RWT06_63           2 980-994         15      X       X       X       X       X       X       X       X       X 
+  RWT06_64           2 995-1009        15      X       X       X       X       X       X       X       X       X 
+  RWT06_65           2 1010-1024       15      X       X       X       X       X       X       X       X       X 
+  RWT06_66           2 1025-1039       15      X       X       X       X       X       X       X       X       X 
+  RWT06_67           2 1040-1054       15      X       X       X       X       X       X       X       X       X 
+  RWT06_68           2 1055-1069       15      X       X       X       X       X       X       X       X       X 
+  RWT06_69           2 1070-1084       15      X       X       X       X       X       X       X       X       X 
+  RWT06_70           2 1085-1099       15      X       X       X       X       X       X       X       X       X 
+  RWT06_71           2 1100-1114       15      X       X       X       X       X       X       X       X       X 
+  RWT06_72           2 1115-1129       15      X       X       X       X       X       X       X       X       X 
+  RWT06_73           2 1130-1144       15      X       X       X       X       X       X       X       X       X 
+  RWT06_74           2 1145-1159       15      X       X       X       X       X       X       X       X       X 
+  RWT06_75           2 1160-1174       15      X       X       X       X       X       X       X       X       X 
+  RWT06_76           2 1175-1189       15      X       X       X       X       X       X       X       X       X 
+  RWT06_77           2 1190-1204       15      X       X       X       X       X       X       X       X       X 
+  RWT06_78           2 1205-1219       15      X       X       X       X       X       X       X       X       X 
+  RWT06_79           2 1220-1234       15      X       X       X       X       X       X       X       X       X 
+  RWT06_80           2 1235-1249       15      X       X       X       X       X       X       X       X       X 
+  RWT06_81           2 1250-1264       15      X       X       X       X       X       X       X       X       X 
+  RWT06_82           2 1265-1279       15      X       X       X       X       X       X       X       X       X 
+  RWT06_83           2 1280-1294       15      X       X       X       X       X       X       X       X       X 
+  RWT06_84           2 1295-1309       15      X       X       X       X       X       X       X       X       X 
+  RWT06_85           2 1310-1324       15      X       X       X       X       X       X       X       X       X 
+  RWT06_86           2 1325-1339       15      X       X       X       X       X       X       X       X       X 
+  RWT06_87           2 1340-1354       15      X       X       X       X       X       X       X       X       X 
+  RWT06_88           2 1355-1369       15      X       X       X       X       X       X       X       X       X 
+  RWT06_89           2 1370-1384       15      X       X       X       X       X       X       X       X       X 
+  RWT06_90           2 1385-1399       15      X       X       X       X       X       X       X       X       X 
+  RWT06_91           2 1400-1414       15      X       X       X       X       X       X       X       X       X 
+  RWT06_92           2 1415-1429       15      X       X       X       X       X       X       X       X       X 
+  RWT06_93           2 1430-1444       15      X       X       X       X       X       X       X       X       X 
+  RWT06_94           2 1445-1459       15      X       X       X       X       X       X       X       X       X 
+  RWT06_95           2 1460-1474       15      X       X       X       X       X       X       X       X       X 
+  RWT06_96           2 1475-1489       15      X       X       X       X       X       X       X       X       X 
+  RWT06_97           2 1490-1504       15      X       X       X       X       X       X       X       X       X 
+  RWT06_98           2 1505-1519       15      X       X       X       X       X       X       X       X       X 
+  RWT06_99           2 1520-1534       15      X       X       X       X       X       X       X       X       X 
+  RWT06_100          2 1535-1549       15      X       X       X       X       X       X       X       X       X 
+  RWT06_101          2 1550-1564       15      X       X       X       X       X       X       X       X       X 
+  RWT06_102          2 1565-1579       15      X       X       X       X       X       X       X       X       X 
+  RWT06_103          2 1580-1594       15      X       X       X       X       X       X       X       X       X 
+  RWT06_104          2 1595-1609       15      X       X       X       X       X       X       X       X       X 
+  RWT06_105          2 1610-1624       15      X       X       X       X       X       X       X       X       X 
+  RWT06_106          2 1625-1639       15      X       X       X       X       X       X       X       X       X 
+  RWT06_107          2 1640-1654       15      X       X       X       X       X       X       X       X       X 
+  RWT06_108          2 1655-1669       15      X       X       X       X       X       X       X       X       X 
+  RWT06_109          2 1670-1684       15      X       X       X       X       X       X       X       X       X 
+  RWT06_110          2 1685-1699       15      X       X       X       X       X       X       X       X       X 
+  RWT06_111          2 1700-1714       15      X       X       X       X       X       X       X       X       X 
+  RWT06_112          2 1715-1729       15      X       X       X       X       X       X       X       X       X 
+  RWT06_113          2 1730-1744       15      X       X       X       X       X       X       X       X       X 
+  RWT06_114          2 1745-1759       15      X       X       X       X       X       X       X       X       X 
+  RWT06_115          2 1760-1774       15      X       X       X       X       X       X       X       X       X 
+  RWT06_116          2 1775-1789       15      X       X       X       X       X       X       X       X       X 
+  RWT06_117          2 1790-1804       15      X       X       X       X       X       X       X       X       X 
+  RWT06_118          2 1805-1819       15      X       X       X       X       X       X       X       X       X 
+  RWT06_119          2 1820-1834       15      X       X       X       X       X       X       X       X       X 
+  RWT06_120          2 1835-1849       15      X       X       X       X       X       X       X       X       X 
+  RWT06_121          2 1850-1864       15      X       X       X       X       X       X       X       X       X 
+  RWT06_122          2 1865-1879       15      X       X       X       X       X       X       X       X       X 
+  RWT06_123          2 1880-1894       15      X       X       X       X       X       X       X       X       X 
+  RWT06_124          2 1895-1909       15      X       X       X       X       X       X       X       X       X 
+  RWT06_125          2 1910-1924       15      X       X       X       X       X       X       X       X       X 
+  RWT06_126          2 1925-1939       15      X       X       X       X       X       X       X       X       X 
+  RWT06_127          2 1940-1954       15      X       X       X       X       X       X       X       X       X 
+  RWT06_128          2 1955-1969       15      X       X       X       X       X       X       X       X       X 
+  RWT06_129          2 1970-1984       15      X       X       X       X       X       X       X       X       X 
+  RWT06_130          2 1985-1999       15      X       X       X       X       X       X       X       X       X 
+  RWT06_131          2 2000-2014       15      X       X       X       X       X       X       X       X       X 
+  RWT06_132          2 2015-2029       15      X       X       X       X       X       X       X       X       X 
+  RWT06_133          2 2030-2044       15      X       X       X       X       X       X       X       X       X 
+  RWT06_134          2 2045-2059       15      X       X       X       X       X       X       X       X       X 
+  RWT06_135          2 2060-2074       15      X       X       X       X       X       X       X       X       X 
+  RWT06_136          2 2075-2089       15      X       X       X       X       X       X       X       X       X 
+  RWT06_137          2 2090-2104       15      X       X       X       X       X       X       X       X       X 
+  RWT06_138          2 2105-2119       15      X       X       X       X       X       X       X       X       X 
+  RWT06_139          2 2120-2134       15      X       X       X       X       X       X       X       X       X 
+  RWT06_140          2 2135-2149       15      X       X       X       X       X       X       X       X       X 
+  RWT06_141          2 2150-2164       15      X       X       X       X       X       X       X       X       X 
+  RWT06_142          2 2165-2179       15      X       X       X       X       X       X       X       X       X 
+  RWT06_143          2 2180-2194       15      X       X       X       X       X       X       X       X       X 
+  RWT06_144          2 2195-2209       15      X       X       X       X       X       X       X       X       X 
+  RWT06_145          2 2210-2224       15      X       X       X       X       X       X       X       X       X 
+  RWT06_146          2 2225-2239       15      X       X       X       X       X       X       X       X       X 
+  RWT06_147          2 2240-2254       15      X       X       X       X       X       X       X       X       X 
+  RWT06_148          2 2255-2269       15      X       X       X       X       X       X       X       X       X 
+  RWT06_149          2 2270-2284       15      X       X       X       X       X       X       X       X       X 
+  RWT06_150          2 2285-2299       15      X       X       X       X       X       X       X       X       X 
+  RWT06_151          2 2300-2314       15      X       X       X       X       X       X       X       X       X 
+  RWT06_152          2 2315-2329       15      X       X       X       X       X       X       X       X       X 
+  RWT06_153          2 2330-2344       15      X       X       X       X       X       X       X       X       X 
+  RWT06_154          2 2345-2359       15      X       X       X       X       X       X       X       X       X 
+  RWT06_155          2 2360-2374       15      X       X       X       X       X       X       X       X       X 
+  RWT06_156          2 2375-2389       15      X       X       X       X       X       X       X       X       X 
+  RWT06_157          2 2390-2404       15      X       X       X       X       X       X       X       X       X 
+  RWT06_158          2 2405-2419       15      X       X       X       X       X       X       X       X       X 
+  RWT06_159          2 2420-2434       15      X       X       X       X       X       X       X       X       X 
+  RWT06_160          2 2435-2449       15      X       X       X       X       X       X       X       X       X 
+  AGE                2 2450-2452        3      X       X       X       X       X       X       X       X       X 
+  SEX                2 2453-2454        2      X       X       X       X       X       X       X       X       X 
+  EMPSTAT            2 2455-2456        2      X       X       X       X       X       X       X       X       X 
+  BLS_PCARE_SLEEP    2 2457-2460        4      X       X       X       X       X       X       X       X       X 
+
+Variable Availability Key:
+All Years X - available in this sample
+All Years . - not available in this sample
+
+Time Use Variables:
+  BLS_PCARE_SLEEP
+    Activity specifications:
+        010100  Sleeping
+
+
+    Time specifications:
+      4:00 am - 4:00 am
+
+    Secondary activity specifications: 
+      None specified
+
+    Location specifications:
+      None specified
+
+    With whom specifications:
+      None specified
+
+
+ STATEFIP		FIPS State Code
+01		Alabama
+02		Alaska
+04		Arizona
+05		Arkansas
+06		California
+08		Colorado
+09		Connecticut
+10		Delaware
+11		District of Columbia
+12		Florida
+13		Georgia
+15		Hawaii
+16		Idaho
+17		Illinois
+18		Indiana
+19		Iowa
+20		Kansas
+21		Kentucky
+22		Louisiana
+23		Maine
+24		Maryland
+25		Massachusetts
+26		Michigan
+27		Minnesota
+28		Mississippi
+29		Missouri
+30		Montana
+31		Nebraska
+32		Nevada
+33		New Hampshire
+34		New Jersey
+35		New Mexico
+36		New York
+37		North Carolina
+38		North Dakota
+39		Ohio
+40		Oklahoma
+41		Oregon
+42		Pennsylvania
+44		Rhode Island
+45		South Carolina
+46		South Dakota
+47		Tennessee
+48		Texas
+49		Utah
+50		Vermont
+51		Virginia
+53		Washington
+54		West Virginia
+55		Wisconsin
+56		Wyoming
+
+ METAREA		Consolidated MSA name
+00000		Not Identified or NonMetropolitan
+00460		Appleton-Oshkosh-Neenah, WI
+01120		Boston, MA
+01121		Boston-Worchester-Manchester, MS-NH-CT-ME
+01160		Bridgeport-New Haven-Stamford, CT
+01600		Chicago-Gary-Kenosha, IL-IN-WI
+01601		Chicago-Naperville-Michigan City, IL-IN-WI
+01640		Cincinnati-Hamilton, OH-KY-IN
+01641		Cincinnati-Middletown-Wilmington, OH-KY-IN
+01680		Cleveland-Akron, OH
+01681		Cleveland-Akron-Elyria, OH
+01920		Dallas-Fort Worth, TX
+01921		Dallas-Fort Worth, TX
+02000		Dayton-Springfield-Greenville, OH
+02080		Denver-Boulder-Greeley, CO
+02081		Denver-Aurora-Boulder, CO
+02160		Detroit-Ann Arbor-Flint, MI
+02161		Detroit-Warren-Flint, MI
+02840		Fresno-Madera, CA
+03000		Grand Rapids-Muskegon-Holland, MI (part)
+03120		Greensboro-Winston-Salem-High Point, NC (part)
+03160		Greenville-Anderson-Seneca, SC (part)
+03360		Houston-Galveston-Brazoria, TX
+03361		Houston-Baytown-Huntsville, TX (part)
+03440		Huntsville-Decatur, AL
+03480		Indianapolis-Anderson-Columbus, IN (part)
+03660		Johnson City-Kingsport-Bristol, TN-VA (part)
+04480		Los Angeles-Riverside-Orange County, CA
+04481		Los Angeles-Long Beach-Riverside, CA
+04680		Macon-Warner-Robins-Fort Valley, GA (part)
+05000		Miami-Fort Lauderdale, FL
+05080		Milwaukee-Racine, WI
+05081		Milwaukee-Racine-Waukesha, WI
+05120		Minneapolis-St. Paul-St. Cloud, MN-WI (part)
+05600		New York-Northern New Jersey-Long Island, NY-NJ-CT-PA
+05601		New York-Newark-Bridgeport, NY-NH-CT-PA
+06160		Philadelphia-Wilmington-Atlantic City, PA-NJ-DE-MD
+06161		Philadelphia-Camden-Vineland, PA-NJ-DE-MD
+06400		Portland-Salem, OR-WA
+06640		Raleigh-Durham-Cary, NC (part)
+06920		Sacramento-Yolo, CA
+06921		Sacramento-Arden-Arcade-Truckee, CA-NV
+07160		Salt Lake City-Ogden-Clearfield, UT (part)
+07360		San Francisco-Oakland-San Jose, CA
+07600		Seattle-Tacoma-Bremerton, WA
+07601		Seattle-Tacoma-Olympia, WA
+08840		Washington-Baltimore, DC-MD-VA-WV
+08841		Washington-Baltimore-Northern Virginia, DC-MD-VA-WV
+99998		Blank
+99999		NIU (Not in universe)
+
+ PERNUM		Person number (general)
+01		1
+02		2
+03		3
+04		4
+05		5
+06		6
+07		7
+08		8
+09		9
+10		10
+11		11
+12		12
+13		13
+14		14
+15		15
+16		16
+
+ LINENO		Person line number
+001		1
+002		2
+003		3
+004		4
+005		5
+006		6
+007		7
+008		8
+009		9
+010		10
+011		11
+012		12
+013		13
+014		14
+015		15
+016		16
+017		17
+018		18
+019		19
+999		NIU (Not in universe)
+
+ SEX		Sex
+01		Male
+02		Female
+99		NIU (Not in universe)
+
+ EMPSTAT		Labor force status
+01		Employed - at work
+02		Employed - absent
+03		Unemployed - on layoff
+04		Unemployed - looking
+05		Not in labor force
+99		NIU (Not in universe)

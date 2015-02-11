@@ -14,7 +14,7 @@ import seaborn as sns
 #Set the display precision
 pd.set_option('precision', 4)
 
-df = pd.DataFrame.from_csv('atus_00004.csv')
+df = pd.DataFrame.from_csv('atus_00005.csv')
 df['weighted_sleep']=df.BLS_PCARE_SLEEP * df.WT06
 df.EMPSTAT.astype('category')
 df['SEX'] = df['SEX'].replace([1, 2], ['Male', 'Female'])
@@ -57,8 +57,34 @@ la_ny_sleep = la_ny_sleep.stack(0).unstack(1)
 
 
 
+
+
+#Error calulation using replicate weights
+column_names = df.columns.values
+indices = [i for i, s in enumerate(column_names) if 'RWT06_' in s]
+column_names = column_names[indices]
+
+
+Y0 = grouped.weighted_sleep.sum() / grouped.WT06.sum();
+data = []
+
+
+def wavg(group, name):
+    d = group['BLS_PCARE_SLEEP']
+    w = group[name]
+    return (d * w).sum() / w.sum()
+
+for name in column_names:
+     data.append((grouped.apply(wavg, name)-Y0)**2)
+
+error = np.sqrt(sum(data)*(4./160))/60
+
+la_error = error.loc[[4481, 5601]]
+la_error = la_error.rename(index={4481:"LA Metro", 5601: "NY Metro"})
+la_error = la_error.stack(0).unstack(1)
+
 f = plt.figure()
 f.gca().get_xaxis().get_major_formatter().set_useOffset(False)
-la_ny_sleep['Male'].unstack(0).plot(ax = f.gca())
+la_ny_sleep['Male'].unstack(0).plot(ax = f.gca(), yerr = la_error['Male'].unstack(0))
 plt.ylabel("Hours Slept")
-
+plt.title('Males')
